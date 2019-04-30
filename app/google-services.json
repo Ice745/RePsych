@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855671077987",
+    "firebase_url": "https://repsych-4fef4.firebaseio.com",
+    "project_id": "repsych-4fef4",
+    "storage_bucket": "repsych-4fef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855671077987:android:07ac989f0744aaac",
+        "android_client_info": {
+          "package_name": "com.example.repsych"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855671077987-qr822e0dm3vnc0ejojltifc2oji6m2eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Ua-GDDKNscqfaP0cPbgVs55roqEdgJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855671077987-qr822e0dm3vnc0ejojltifc2oji6m2eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

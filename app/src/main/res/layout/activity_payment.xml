@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Payment">
+
+    <Spinner
+            android:id="@+id/spinner2"
+            android:layout_height="wrap_content"
+            android:entries="@array/stakeholder_list" android:layout_marginTop="250dp" android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" android:layout_marginBottom="10dp" android:paddingTop="10dp"
+            android:paddingBottom="10dp" android:hapticFeedbackEnabled="true" android:layout_width="match_parent"
+            android:spinnerMode="dropdown"/>
+
+
+
+    <TextView
+            android:text="Payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="73dp"
+            tools:layout_editor_absoluteX="176dp" android:id="@+id/InfoText" android:layout_marginStart="130dp"
+            android:textSize="40sp" android:layout_marginTop="50dp" android:fontFamily="@font/catamaran_medium"
+            android:textAlignment="center" android:textColor="@color/zxing_custom_viewfinder_laser"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:hint="Amount"
+            android:id="@+id/price_inp" android:fontFamily="@font/catamaran_medium" android:textSize="24sp"
+            android:layout_marginStart="10dp" android:layout_marginTop="340dp"/>
+    <Button
+            android:text="Confirrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/buy_btn"
+            android:textAppearance="@style/TextAppearance.AppCompat" android:fontFamily="@font/catamaran_medium"
+            android:textSize="24sp" android:textAlignment="center" android:textColor="@color/text"
+            android:background="@color/colorAccent" android:layout_marginTop="500dp" android:onClick="getValues"/>
+</RelativeLayout>
